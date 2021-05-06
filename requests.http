@@ -1,0 +1,19 @@
+### Get Courses
+GET http://localhost:3000/api/v1/course
+
+### Get Course by Id
+GET http://localhost:3000/api/v1/course/4
+
+### Add Course
+POST http://localhost:3000/api/v1/course
+Content-Type: application/json
+
+{
+    "name": "BS",
+    "details": "Bachelor in Science",
+    "admissionsOpen": false, 
+    "noOfSemesters": 6
+}
+
+### Delete Course
+DELETE http://localhost:3000/api/v1/course/5
